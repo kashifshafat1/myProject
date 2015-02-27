@@ -2,6 +2,8 @@
 
 Example code taken from the book [Agile Web Development With Rails 4](https://pragprog.com/book/rails4/agile-web-development-with-rails-4) by Ruby, Tomas and Hansson.
 
+As I progressed thorugh this tutorial I updated each chapter results when successful.
+
 ## Installation
 
     $ git clone https://github.com/kgish/agile-web-development-with-rails-4.git book-rails4
