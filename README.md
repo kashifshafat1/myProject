@@ -6,8 +6,15 @@ As I progressed thorugh this tutorial I updated each chapter results when succes
 
 ## Installation
 
-    $ git clone https://github.com/kgish/agile-web-development-with-rails-4.git book-rails4
-    $ cd book-rails4
-    $ bundle install
-    $ rake db:migrate
-    $ rails s
+```bash
+$ git clone https://github.com/kgish/agile-web-development-with-rails-4.git book-rails4
+$ cd book-rails4
+$ bundle install
+$ rake db:migrate
+$ rails s
+```
+
+In order to populate the `products` table with test data, run the following command:
+```bash
+$ rake db:seed
+```
