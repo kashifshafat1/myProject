@@ -7,7 +7,7 @@ As I progressed thorugh this tutorial I updated each chapter results when succes
 ## Installation
 
 ```bash
-$ git clone https://github.com/kgish/agile-web-development-with-rails-4.git book-rails4
+$ git clone https://github.com/kgish/agile-web-development-with-rails-4.git
 $ cd book-rails4
 $ bundle install
 $ rake db:migrate
