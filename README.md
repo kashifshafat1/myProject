@@ -1,18 +1,24 @@
-# Depot Application
+# README
 
-Example code taken from the book [Agile Web Development With Rails 4](https://pragprog.com/book/rails4/agile-web-development-with-rails-4) by Ruby, Tomas and Hansson.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-As I progressed through this tutorial, I updated each chapter results when successful.
+Things you may want to cover:
 
-## Installation
+* Ruby version
 
-    $ git clone https://github.com/kgish/agile-web-development-with-rails-4.git book-rails4
-    $ cd book-rails4
-    $ bundle install
-    $ rake db:migrate
-    $ rails s
+* System dependencies
 
-In order to populate the `products` table with test data, run the following command:
+* Configuration
 
-    $ rake db:seed
-    
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

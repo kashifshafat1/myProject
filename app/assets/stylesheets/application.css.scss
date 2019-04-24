@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -15,11 +16,11 @@
  */
 
 #banner {
-  background: #9c9;
+  background:#cc99ac ;
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  color: #882258;
   text-align: center;
 
   img {
@@ -32,7 +33,9 @@
   border: 2px solid red;
   padding: 1em;
   margin-bottom: 2em;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0
+
+  ;
   font: bold smaller sans-serif;
 }
 
@@ -49,7 +52,8 @@
     float: left;
     padding: 1em 2em;
     width: 13em;
-    background: #141;
+    background: #357dce;
+    height: 584px;
 
     form, div {
       display: inline;
