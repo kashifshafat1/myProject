@@ -41,15 +41,13 @@ class OrdersController < ApplicationController
         Cart.destroy(session[:cart_id])
         session[:cart_id] = nil
         OrderNotifier.received(@order).deliver
-        format.html { redirect_to store_url, notice:
-          'Thank you for your order.' }
-        format.json { render action: 'show', status: :created,
-          location: @order }
+        
+        format.html { redirect_to store_url, notice:'Thank you for your order.' }
+        format.json { render action: 'show', status: :created,location: @order }
 
       else
         format.html { render action: 'new' }
-        format.json { render json: @order.errors,
-          status: :unprocessable_entity }
+        format.json { render json: @order.errors,status: :unprocessable_entity }
       end
     end
   end
